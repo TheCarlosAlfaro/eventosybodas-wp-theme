@@ -1,5 +1,28 @@
 // This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
 
+html,
+body {
+  font-size: 1rem;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 1.1rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 1.2rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1.3rem;
+  }
+}
+
 // body {
 //   padding-top: 4.5rem;
 // }
@@ -23,7 +46,7 @@ body.admin-bar nav {
   position: absolute;
   width: 100%;
   text-align: center;
-  top: 40%;
+  top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
