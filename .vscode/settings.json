@@ -1,6 +1,4 @@
 {
-  "editor.formatOnSave": true,
-  "editor.formatOnPaste": true,
   "workbench.colorCustomizations": {
     "statusBar.background": "#EFBDEB",
     "titleBar.activeBackground": "#EFBDEB",

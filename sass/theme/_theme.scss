@@ -1,8 +1,8 @@
 // This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
 
-body {
-  padding-top: 4.5rem;
-}
+// body {
+//   padding-top: 4.5rem;
+// }
 
 body.admin-bar nav {
   margin-top: 32px;
@@ -12,8 +12,22 @@ body.admin-bar nav {
   padding: 0;
 }
 
-.jumbotron {
-  background-color: #fff;
+.hero--bg-image {
+  height: 85vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+}
+
+.hero-content {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 40%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 // type styles
@@ -56,6 +70,14 @@ body.admin-bar nav {
   margin-left: 10px;
   border-radius: 5px;
   border: 2px solid black;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(252, 251, 250, 1);
+}
+
+.navbar-light .navbar-brand {
+  color: rgba(252, 251, 250, 1);
 }
 
 .navbar-expand-md .navbar-nav .nav-link,
