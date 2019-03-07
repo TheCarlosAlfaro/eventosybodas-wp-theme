@@ -1,7 +1,6 @@
 // This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
 
-html,
-body {
+html {
   font-size: 1rem;
 }
 
@@ -51,6 +50,14 @@ body.admin-bar nav {
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+}
+
+.navbar.scrolled {
+  background-color: $black !important;
+  transition: background-color 200ms linear;
+}
+.navbar {
+  transition: background-color 200ms linear;
 }
 
 // type styles

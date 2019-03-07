@@ -37,7 +37,7 @@ $container = get_theme_mod('eventosybodas_container_type');
       <a class="skip-link sr-only sr-only-focusable"
         href="#content"><?php esc_html_e('Skip to content', 'eventosybodas'); ?></a>
 
-      <nav class="navbar navbar-expand-md navbar-light fixed-top bg-transparent">
+      <nav class="navbar navbar-expand-md navbar-light fixed-top">
 
         <?php if ('container' == $container) : ?>
         <div class="container">

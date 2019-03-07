@@ -1,4 +1,12 @@
 jQuery(document).ready(function($) {
+  $(window).scroll(function() {
+    var $nav = $(".navbar");
+    var scroll = $(window).scrollTop();
+    if (scroll < 300) {
+      $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+    }
+  });
+
   class Search {
     // 1. describe and create/initiate our object
     constructor() {

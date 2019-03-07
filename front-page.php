@@ -19,5 +19,32 @@ $container = get_theme_mod('eventosybodas_container_type');
 <!-- Hero Section/Jumbotron -->
 <?php get_template_part('global-templates/jumbotron'); ?>
 
+<!-- Our Services Section -->
+<?php if (get_field('service_section')) {
+
+	get_template_part('global-templates/our-services');
+} ?>
+
+<!-- Sign up Section -->
+<?php get_template_part('global-templates/signup'); ?>
+
+<!-- Latest Section -->
+<?php get_template_part('global-templates/latest'); ?>
+
+<!-- Quote Section -->
+<?php get_template_part('global-templates/quote'); ?>
+
+<!-- Book Section -->
+<?php get_template_part('global-templates/book'); ?>
+
+<!-- Live Section -->
+<?php get_template_part('global-templates/live'); ?>
+
+<!-- Biography Section -->
+<?php get_template_part('global-templates/biography'); ?>
+
+<!-- Gallery Section -->
+<?php get_template_part('global-templates/gallery'); ?>
+
 
 <?php get_footer(); ?>
