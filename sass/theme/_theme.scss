@@ -661,3 +661,15 @@ body.admin-bar .search-overlay {
     width: calc(33.3333% - 2rem);
   }
 }
+
+// FOOTER
+#wrapper-footer-full,
+#wrapper-static-hero {
+  background-color: $light;
+  border-top: 3px solid $black;
+}
+
+#footer-full-content a,
+.site-info a {
+  color: $dark;
+}

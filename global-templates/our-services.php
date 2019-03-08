@@ -27,7 +27,7 @@ if (!defined('ABSPATH')) {
       </div>
       <div class="card-body">
         <p><?php the_field('service_1_excerpt'); ?></p>
-        <button type="button" class="btn btn-lg btn-block btn-outline-secondary">Sign up for free</button>
+        <button type="button" class="btn btn-lg btn-block btn-outline-secondary">Give us a call!</button>
       </div>
     </div>
     <div class="card mb-4 shadow-sm">
