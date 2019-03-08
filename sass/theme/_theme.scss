@@ -65,6 +65,14 @@ body.admin-bar nav {
   color: white;
 }
 
+.navbar.scrolled .active {
+  border-color: white;
+}
+
+.active {
+  border-bottom: 2px solid $black;
+}
+
 .navbar {
   transition: background-color 200ms linear;
 }
