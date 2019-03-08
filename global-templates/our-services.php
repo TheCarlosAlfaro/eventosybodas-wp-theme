@@ -27,7 +27,8 @@ if (!defined('ABSPATH')) {
       </div>
       <div class="card-body">
         <p><?php the_field('service_1_excerpt'); ?></p>
-        <button type="button" class="btn btn-lg btn-block btn-outline-secondary">Give us a call!</button>
+        <a class="btn btn-block btn-outline-secondary btn-lg" href="<?php the_field('service_1_button_url') ?>"
+          role="button"><?php the_field('service_1_button'); ?></a>
       </div>
     </div>
     <div class="card mb-4 shadow-sm">
@@ -39,7 +40,8 @@ if (!defined('ABSPATH')) {
       </div>
       <div class="card-body">
         <p><?php the_field('service_2_excerpt'); ?></p>
-        <button type="button" class="btn btn-lg btn-block btn-secondary">Get started</button>
+        <a class="btn btn-block btn-outline-secondary btn-lg" href="<?php the_field('service_2_button_url') ?>"
+          role="button"><?php the_field('service_2_button'); ?></a>
       </div>
     </div>
     <div class="card mb-4 shadow-sm">
@@ -51,7 +53,8 @@ if (!defined('ABSPATH')) {
       </div>
       <div class="card-body">
         <p><?php the_field('service_3_excerpt'); ?></p>
-        <button type="button" class="btn btn-lg btn-block btn-secondary">Contact us</button>
+        <a class="btn btn-block btn-outline-secondary btn-lg" href="<?php the_field('service_3_button_url') ?>"
+          role="button"><?php the_field('service_3_button'); ?></a>
       </div>
     </div>
   </div>
