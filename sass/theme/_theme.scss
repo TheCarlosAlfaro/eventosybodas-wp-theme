@@ -22,9 +22,13 @@ html {
   }
 }
 
-// body {
-//   padding-top: 4.5rem;
-// }
+body.home {
+  padding-top: 0;
+}
+
+body {
+  padding-top: 4.5rem;
+}
 
 body.admin-bar nav {
   margin-top: 32px;
@@ -56,6 +60,11 @@ body.admin-bar nav {
   background-color: $secondary !important;
   transition: background-color 200ms linear;
 }
+.navbar.scrolled a,
+.navbar.scrolled.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+
 .navbar {
   transition: background-color 200ms linear;
 }
@@ -110,11 +119,15 @@ body.admin-bar nav {
   border: 2px solid black;
 }
 
-.navbar-light .navbar-nav .nav-link {
+.home .navbar-light .navbar-nav .nav-link {
   color: rgba(252, 251, 250, 1);
 }
 
-.navbar-light .navbar-brand {
+.navbar-light .navbar-nav .nav-link {
+  color: $dark;
+}
+
+.home .navbar-light .navbar-brand {
   color: rgba(252, 251, 250, 1);
 }
 

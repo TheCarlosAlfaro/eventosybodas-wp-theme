@@ -8,7 +8,7 @@
  */
 
 if (!defined('ABSPATH')) {
-	exit; // Exit if accessed directly.
+  exit; // Exit if accessed directly.
 }
 
 $container = get_theme_mod('eventosybodas_container_type');
@@ -62,9 +62,9 @@ $container = get_theme_mod('eventosybodas_container_type');
 
 
           <?php 
-									} else {
-										the_custom_logo();
-									} ?>
+                  } else {
+                    the_custom_logo();
+                  } ?>
           <!-- end custom logo -->
 
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
@@ -75,17 +75,17 @@ $container = get_theme_mod('eventosybodas_container_type');
 
           <!-- The WordPress Menu goes here -->
           <?php wp_nav_menu(
-											array(
-												'theme_location'  => 'primary',
-												'container_class' => 'collapse navbar-collapse',
-												'container_id'    => 'navbarNavDropdown',
-												'menu_class'      => 'navbar-nav ml-auto',
-												'fallback_cb'     => '',
-												'menu_id'         => 'main-menu',
-												'depth'           => 2,
-												'walker'          => new eventosybodas_WP_Bootstrap_Navwalker(),
-											)
-										); ?>
+                      array(
+                        'theme_location'  => 'primary',
+                        'container_class' => 'collapse navbar-collapse',
+                        'container_id'    => 'navbarNavDropdown',
+                        'menu_class'      => 'navbar-nav ml-auto',
+                        'fallback_cb'     => '',
+                        'menu_id'         => 'main-menu',
+                        'depth'           => 2,
+                        'walker'          => new eventosybodas_WP_Bootstrap_Navwalker(),
+                      )
+                    ); ?>
 
           <?php if ('container' == $container) : ?>
 
