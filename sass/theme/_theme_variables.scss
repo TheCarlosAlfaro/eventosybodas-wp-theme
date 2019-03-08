@@ -5,7 +5,7 @@
 $primary: #01ce01; // Thats a sample how you could change a BootStrap variable.
 $white: rgba(252, 251, 250, 1) !default;
 $gray-100: rgba(252, 251, 250, 1) !default;
-$secondary: #111111;
+$secondary: #303030;
 $carousel-control-color: $primary;
-$navbar-light-toggler-icon-bg: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(1, 206, 1, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
-$navbar-light-toggler-border-color: rgba($primary, 0.1);
+$navbar-light-toggler-icon-bg: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(252, 251, 250, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+$navbar-light-toggler-border-color: rgba($white, 0.1);

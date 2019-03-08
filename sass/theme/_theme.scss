@@ -53,11 +53,19 @@ body.admin-bar nav {
 }
 
 .navbar.scrolled {
-  background-color: $black !important;
+  background-color: $secondary !important;
   transition: background-color 200ms linear;
 }
 .navbar {
   transition: background-color 200ms linear;
+}
+
+.card {
+  border: none;
+}
+
+.card-header {
+  background-color: white;
 }
 
 // type styles
@@ -155,13 +163,13 @@ body.admin-bar nav {
 }
 
 .social a i {
-  color: $primary;
+  color: $light;
   font-size: 20px;
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
   -o-border-radius: 100%;
   border-radius: 100%;
-  border: 2px solid $primary;
+  border: 2px solid $light;
   text-align: center;
   display: table-cell;
   vertical-align: middle;
