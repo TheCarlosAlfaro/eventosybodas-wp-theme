@@ -1,9 +1,8 @@
 <?php
 
 /**
- * Template Name: Full Width Page
+ * Template for Front-page 
  *
- * Template for displaying a page without sidebar even if a sidebar widget is published.
  *
  * @package eventosybodas
  */
